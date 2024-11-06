@@ -1,0 +1,81 @@
+nav{
+    background-image: url(./slider-4.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+
+}
+.about-coch{
+    position: absolute;
+    color: white;
+    bottom: 100px;
+    text-align: center;
+    left: 40%;
+}
+.about-coch p:first-child{
+    font-size: 4rem;
+    font-weight:800;
+}
+.about-coch p:last-child{
+    font-size: 1.8rem;
+    color: yellow;
+}
+.details{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.coch-desc p:first-child{
+    font-size: 3rem;
+    font-weight: 800;
+   
+    
+}
+.coch-desc{
+    padding-top: 80px;
+}
+.coch-desc p:nth-child(2),
+.coch-desc p:nth-child(3),
+.coch-desc p:nth-child(4){
+    line-height: 1.8;
+    
+    
+}
+
+.coch-img ,.coch-desc{
+    height: 60vh;
+    width: 40vw;
+    
+}
+.coch-img img{
+    height: 60vh;
+    width: 40vw;
+}
+.Courses{
+    background-image: url(./price-bg.jpg);
+    background-size: cover;
+    width: 98vw;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.Courses h1{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    
+
+}
+.courses-details{
+    display: flex;
+
+}
+.courses-details div{ 
+    /* display: flex; */
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
