@@ -2,26 +2,26 @@ import React from "react";
 import "./Coch.css";
 import logo from "./lucknow.png";
 import cochimg from "./yoga.jpg";
+import trainerimg from './slider-4.jpg'
+import companyimg1 from './unicef.png'
+import companyimg2 from './sitrefesp.png'
+import companyimg3 from './fpf.png'
+import companyimg4 from './fcbarcelona.png'
 
 function Coch() {
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <img className="logo-img" src={logo} alt="" />
-          </li>
-          <li>home</li>
-          <li>About us</li>
-          <li>Service</li>
-          <li>Gallery</li>
-          <li>Contact us</li>
-        </ul>
+      <div className="coch">
         <div className="about-coch">
           <p>About Coach</p>
           <p>Brazilian Football Coach</p>
         </div>
-      </nav>
+       
+
+      </div>
+      
+        
+      
       <div className="details">
         <div className="coch-desc">
           <p>Fernando Coutinho</p>
@@ -46,19 +46,25 @@ function Coch() {
         </h1>
         <div className="courses-details" >
           <div>
-            <p>SITREFESP</p>
-            <p>Union of Professional Coaches State Football of Sao Paulo, Brazil, 2014.</p>
+            <p>SITREFESP</p> <br />
+            <p>Union of Professional Coaches <br />State Football of Sao Paulo, Brazil, 2014.</p>
           </div>
           <div>
-            <p>SITREFESP</p>
-            <p>Union of Professional Coaches State Football of Sao Paulo, Brazil, 2014.</p>
+            <p>SITREFESP</p> <br />
+            <p>Union of Professional Coaches <br />State Football of Sao Paulo, Brazil, 2014.</p>
           </div>
           <div>
-            <p>SITREFESP</p>
-            <p>Union of Professional Coaches State Football of Sao Paulo, Brazil, 2014.</p>
+            <p>SITREFESP</p> <br />
+            <p>Union of Professional Coaches  <br />State Football of Sao Paulo, Brazil, 2014.</p>
           </div>
           
 
+        </div>
+        <div className="course-comapany">
+          <img src={companyimg1} alt="" />
+          <img src={companyimg2} alt="" />
+          <img src={companyimg3} alt="" />
+          <img src={companyimg4} alt="" />
         </div>
       </div>
     </div>

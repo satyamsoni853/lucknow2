@@ -5,7 +5,8 @@ import img2 from "./personnel-2.jpg";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div>
+      <div className="footer">
       <h1>Partnership With</h1>
       <div className="main">
         <div className="footer-1">
@@ -33,6 +34,9 @@ function Footer() {
           </div>
         </div>
       </div>
+      
+    </div>
+    
     </div>
   );
 }

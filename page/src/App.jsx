@@ -10,20 +10,24 @@ import Learn from "./learn/Learn.jsx";
 import Ourmisssion from "./Ourmission/Ourmission.jsx";
 import Acedmy from "./Acedmy/Acedmy.jsx";
 import Coch from "./Cochsection/Coch/Coch.jsx";
+import Copyright from "./Copyright/Copyright.jsx";
+import Gallery from "./Gallery/Gallery.jsx";
 
 function App() {
   return (
     <>
+    {/* <Gallery/> */}
       {/* <Coch/> */}
-      <Navbarr />
+       <Navbarr />
       <About />
-      <Learn />
-      <Luckball />
-      <Card />
+      {/* <Learn /> */}
+      {/* <Luckball /> */}
+      {/* <Card /> */}
 
-      <Ourmisssion />
-      <Acedmy />
-      <Footer />
+      {/* <Ourmisssion /> */}
+      {/* <Acedmy />  */}
+      {/* { <Footer /> } */}
+       {/* <Copyright/>  */}
     </>
   );
 }

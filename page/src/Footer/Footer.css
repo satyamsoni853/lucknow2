@@ -1,6 +1,6 @@
 .main {
     display: flex;
-    align-items: flex-start; /* Aligns items at the top */
+    align-items: flex-start; 
     justify-content: space-between;
     gap: 50px;
     margin: 50px 100px;
@@ -12,7 +12,10 @@
     align-items: center;
     text-align: center;
     line-height: 1.8;
-    width: 100%; /* Ensures both sections take up equal space */
+    width: 100%; 
+}
+.main{
+    height: 65vh;
 }
 
 .footer-1 img, .footer-2 img {
@@ -22,7 +25,9 @@
 
 .footer h1 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 3rem;
+    color: black;
+    padding: 0px 50px;
     margin-bottom: 20px;
 }
 
